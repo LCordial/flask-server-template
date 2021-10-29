@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>HTML Flask Server</title>
+    </head>
+    <body>
+        <h1>Flask Server Template</h1>
+        <p>Using python to render HTML!</p>
+        <button onclick="alerttest()">Press me!</button>
+    </body>
+    <script src="{{ url_for('static', filename='main.js')}}"></script>
+</html>
