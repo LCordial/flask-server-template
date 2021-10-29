@@ -2,7 +2,7 @@
 > A template for a web based flask server.
 
 ## Introduction
-This template is for people who want to use flask as their HTML/JS server or renderer
+This template is for people who want to use flask as their HTML/JS server or renderer.
 
 ## Usage
 Download [Flask](https://flask.palletsprojects.com/en/2.0.x/) within your project,
@@ -12,7 +12,7 @@ pip install Flask
 Start the python script.
 
 ## Linking Javascript or CSS
-Linking Javascript or CSS files while using a Flask server is different then vanilla HTML
+Linking Javascript or CSS files while using a Flask server is different then vanilla HTML. Now:
 
 ```html
 <script src="{{ url_for('static', filename='<filename>')}}"></script>
