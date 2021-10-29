@@ -1,11 +1,13 @@
 <html>
     <head>
         <title>HTML Flask Server</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='main.css')}}"/>
     </head>
     <body>
         <h1>Flask Server Template</h1>
         <p>Using python to render HTML!</p>
         <button onclick="alerttest()">Press me!</button>
+        <p id="csstest">I'm using CSS!</p>
     </body>
     <script src="{{ url_for('static', filename='main.js')}}"></script>
 </html>
